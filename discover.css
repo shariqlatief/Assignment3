@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    background-color: aqua;
+    overflow: hidden;
+}
+.logo p{
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.logo p:hover{
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    float: right;  
+}
+nav ul li{
+    display: inline-block;
+}
+nav  ul li a{
+    display: block;
+    text-transform: uppercase;
+    padding: 20px 35px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+}
+nav li a:hover{
+    color: black;
+    transition: all 0.4s ease 0s;
+    border-bottom: 0.3px solid #000;
+}
+.abt_nav{
+    background-color: aqua;
+    color:black;
+    border-bottom: 1px solid white;
+}
+.abt_nav li a{
+    color: #000;
+}
+.abt_nav .logo p{
+    color: black;
+}
+.discover-main {
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+}
+.card-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+img {
+    padding-right: 30px;;
+}
+
+.img-1 {
+    height: 250px;
+    width: 200px;
+}
+
+.img-2 {
+    height: 240px;
+    width: 200px;
+    padding-top: 16px;
+}
+.first-txt {
+    position: absolute;
+    bottom: 195px;
+    padding-left: 8px;
+}
+.second-txt {
+    position: absolute;
+    bottom: 177px;
+    padding-left: 8px;
+}

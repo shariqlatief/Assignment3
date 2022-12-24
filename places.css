@@ -1,0 +1,146 @@
+nav{
+    width: 100%;
+    background-color:aqua;
+    overflow: hidden;
+    height: 58px;
+}
+.logo p{
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.logo p:hover{
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    float: right;  
+}
+nav ul li{
+    display: inline-block;
+}
+nav  ul li a{
+    display: block;
+    text-transform: uppercase;
+    padding: 8px 35px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border-bottom: 3px solid transparent;
+}
+nav li a:hover{
+    color: black;
+    transition: all 0.4s ease 0s;
+    border-bottom: 0.3px solid #000;
+}
+.abt_nav{
+    background-color: white;
+    color:black;
+    border-bottom: 1px solid white;
+}
+.abt_nav li a{
+    color: #000;
+}
+.abt_nav .logo p{
+    color: black;
+}
+.places-images  {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+}
+.secWidth{
+    width:100%;
+    display: flex;
+   align-items: center;
+   margin: 0 auto;
+}
+.card-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+img {
+    padding-right: 30px;;
+}
+
+.img-1 {
+    height: 250px;
+    width: 200px;
+}
+
+.img-2 {
+    height: 240px;
+    width: 200px;
+    padding-top: 16px;
+}
+.first-txt {
+    position: absolute;
+    bottom: 318px;
+    padding-left: 8px;
+}
+.second-txt {
+    position: absolute;
+    bottom: 300px;
+    padding-left: 8px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50px;
+    padding: 0px 41px 0px 10px;
+}
+.arrow-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:32px;
+    width: 32px;
+    color: #f4f4f4;
+    background-color: aquamarine;
+
+}
+.rating-icon {
+    position: relative;
+    left: 153px;
+    top: 40px;
+}
+.first-text1{
+    position: relative;
+    bottom: 150px;
+    padding-left: 8px;
+}
+.second-text1{
+    position: relative;
+    bottom: 167px;
+    padding-left: 8px;
+}
+.price-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 157px;
+    padding: 0px 41px 0px 10px;
+}
+.rating-icon-1 {
+    position: absolute;
+    left: 556px;
+    bottom: 25px;
+}
+.rating-icon-2 {
+    position: absolute;
+    bottom: 25px;
+    right: 440px;
+}
